@@ -1556,7 +1556,7 @@ audio {
 
   position:absolute;
   display:none;
-  top:15%; 
+  top:50%; 
   left:50%;
   margin-left:-150px;
 }
