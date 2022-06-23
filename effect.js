@@ -154,7 +154,7 @@ $('document').ready(function(){
 		function msgLoop (i) {
 			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
 			i=i+1;
-			$("p:nth-child("+i+")").fadeIn('slow').delay(3500);
+			$("p:nth-child("+i+")").fadeIn('slow').delay(2500);
 			if(i==30){
 				$("p:nth-child(29)").fadeOut('slow').promise().done(function () {
 					$('.card').fadeIn('fast');
