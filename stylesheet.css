@@ -1545,21 +1545,6 @@ audio {
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-.container {
-  width: 100%;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  background-color: #dc143c;
-}
 
 .card {
   width: 400px;
@@ -1568,7 +1553,13 @@ audio {
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
   background-color: #fff;
   padding: 10px 10px;
-  position: relative;
+  /* position: relative; */
+
+  position:absolute;
+  display:none;
+  top:30%; 
+  left:50%;
+  margin-left:-150px;
 }
 
 .main {
@@ -1585,7 +1576,7 @@ audio {
   border-radius: 40px;
   z-index: 1;
   top: 70px;
-  background-color: #dc143c;
+  background-color: transparent;
   width: 40px;
 }
 
@@ -1597,7 +1588,7 @@ audio {
   border-radius: 40px;
   z-index: 1;
   top: 70px;
-  background-color: #dc143c;
+  background-color: transparent;
   width: 40px;
 }
 
