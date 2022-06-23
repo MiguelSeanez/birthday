@@ -155,10 +155,10 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(5000);
-			if(i==50){
-				$("p:nth-child(28)").fadeOut('slow').promise().done(function () {
+			if(i==30){
+				$("p:nth-child(29)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
-					$('.present').fadeIn('fast');
+					$('.card').fadeIn('fast');
 				});
 				
 			}

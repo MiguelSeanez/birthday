@@ -1540,24 +1540,23 @@ audio {
 }
 
 .cake-cover {
-	margin-top: 50px;
+	margin-top: 150px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 
 .card {
-  width: 400px;
+  width: 300px;
   height: 180px;
   border-radius: 5px;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
   background-color: #fff;
   padding: 10px 10px;
-  /* position: relative; */
 
   position:absolute;
   display:none;
-  top:30%; 
+  top:15%; 
   left:50%;
   margin-left:-150px;
 }
@@ -1592,10 +1591,6 @@ audio {
   width: 40px;
 }
 
-.co-img img {
-  width: 100px;
-  height: 100px;
-}
 .vertical {
   border-left: 5px dotted black;
   height: 170px;
